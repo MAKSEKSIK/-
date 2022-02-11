@@ -1,12 +1,8 @@
-a = input()
-b = input()
-c = input()
-d = input()
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
 maxs = -1000000
-a = int(a)
-b = int(b)
-c = int(c)
-d = int(d)
 if (a > maxs and a % 2 == 0):
     maxs = a
 if (b > maxs and b % 2 == 0):
